@@ -1,1 +1,129 @@
-/* Add CSS styling here */
+body {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.nav-parent {
+  width:
+  height: 
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+#button-container {
+  float: right;
+  color: black;
+}
+
+
+/* FLEX BOX START*/
+/* 1 */
+.flex-container1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: large;
+}
+
+.flex-container1>div {
+  background: firebrick;
+  flex-basis: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 400px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.flex-container1>div>button {
+  align-self: flex-end;
+}
+
+.box-descriptions {
+  display: flex;
+}
+
+/* 2 - 3 - 4 */
+.flex-container2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-container2>div {
+  background: black;
+  flex-basis: 30%;
+  margin: 10px;
+  height: 200px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+/* 5 - 6 - 7 */
+
+.flex-container3 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-container3>div {
+  background: tomato;
+  flex-basis: 30%;
+  margin: 10px;
+  height: 200px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+/*caption */
+.box-descriptions {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.box-descriptions>a {
+  flex-grow: initial;
+  align-self: center;
+  align-content: center;
+}
+
+/*FLEX BOX END*/
+
+.Bottom-navbarContainer {
+  background-color: gray;
+  text-align: center;
+  height: 100px;
+}
+
+.Bottom-navbarContainer>nav>button {
+  margin: auto;
+  text-align: center;
+  margin-top: 45px;
+}
